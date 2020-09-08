@@ -12,6 +12,7 @@ namespace git.Controllers
         public ActionResult Index()
         {
             return View();
+            Console.WriteLine("hello");
         }
     }
 }
